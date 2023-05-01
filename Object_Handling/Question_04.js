@@ -45,9 +45,8 @@ for (let i = 0; i < library.length; i++) {
     const bookInfo = library.title + ' by ' + library.author;
 
     if (book.readingStatus === true) {
-        console.log(`${book.title} by ${book.author} has been readed`);
+        console.log(`"${book.title}" by "${book.author}" has been readed.`);
     }else if (book.readingStatus === false) {
-        console.log(`${book.title} by ${book.author} has not been readed`);
-    }
-    
+        console.log(`"${book.title}" by "${book.author}" has not been readed.`);
+    }  
 }
