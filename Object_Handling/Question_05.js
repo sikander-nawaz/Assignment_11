@@ -4,6 +4,3 @@
 
 // SOLUTION
 
-const volOfCylinder = {
-    
-}

@@ -6,6 +6,3 @@
 
 // SOLUTION
 
-let data = [6,4,0, 3,-2,1];
-
-console.log(data.sort());

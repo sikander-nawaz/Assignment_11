@@ -7,10 +7,3 @@
 
 // SOLUTION
 
-const students = {
-    name : "David Rayy",
-    sclass : "VI",
-    rollno : 12
-};
-
-console.log(Object.keys(students).length);
