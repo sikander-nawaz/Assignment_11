@@ -5,18 +5,6 @@
 
 
 // calculate the area of the circle
-function area(radius) {
-  const pi = Math.PI;
-  const area = pi * radius ** 2;
-  return area;
-}
+
 
 // calculate the perimeter (circumference) of the circle
-function perimeter(radius) {
-  const pi = Math.PI;
-  const perimeter = 2 * pi * radius;
-  return perimeter;
-}
-
-console.log(`Area of Circle is "${area(10)}"`);
-console.log(`Perimeter of Circle is "${perimeter(10)}"`);
