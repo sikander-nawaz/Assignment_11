@@ -4,3 +4,17 @@
 
 // SOLUTION
 
+class volumeOfCylinder {
+    constructor(r, h){
+        this.radius = r;
+        this.height = h;
+    }
+
+    showVolume(){
+        let vol = Math.PI * Math.pow(this.radius, 2) * this.height;
+        console.log(vol);
+    }
+};
+
+let volume = new volumeOfCylinder(5, 6);
+volume.showVolume();

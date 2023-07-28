@@ -1,4 +1,4 @@
-// 6. Write a Bubble Sort algorithm in JavaScript.
+// Write a Bubble Sort algorithm in JavaScript.
 // Note : Bubble sort is a simple sorting algorithm that works by repeatedly stepping through the list to
 // be sorted,
 // Sample Data: [6,4,0, 3,-2,1]
@@ -6,3 +6,5 @@
 
 // SOLUTION
 
+let array = [6, 4, 0, 3, -2, 1];
+console.log(array.sort());

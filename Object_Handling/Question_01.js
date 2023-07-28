@@ -13,6 +13,4 @@ sclass : "VI",
 rollno : 12 
 };
 
-for (const key in student) {
-    console.log(key);
-};
+console.log(Object.keys(student).join(", "));
