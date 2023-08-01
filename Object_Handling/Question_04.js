@@ -41,8 +41,8 @@ var library = [
 
 for (let index = 0; index < library.length; index++) {
     if (library[index].readingStatus === true) {
-        console.log(`${library[index].title} by ${library[index].author} has been read.`);
+        console.log(`"${library[index].title}" by "${library[index].author}" has been read.`);
     }else{
-        console.log(`${library[index].title} by ${library[index].author} has not been read.`);
+        console.log(`"${library[index].title}" by "${library[index].author}" has not been read.`);
     }
 };
