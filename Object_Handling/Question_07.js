@@ -20,6 +20,8 @@ let str1 = "dog";
 let empty = [];
 for (i = 0; i < str1.length; i++) {
     for (let j = i + 1; j <= str1.length; j++) {
+        // console.log(i);
+        // console.log(j);
         empty.push(str1.substring(i, j))
     }
 };

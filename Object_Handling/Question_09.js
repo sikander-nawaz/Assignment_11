@@ -4,7 +4,19 @@
 // SOLUTION
 
 
-// calculate the area of the circle
+// calculate the area of the circle             Area = πr^2;
+function areaOfCircle(r) {
+    area = Math.PI * Math.pow(r, 2);
+    console.log(`Area of the circle is: ${area}`);
+};
+
+areaOfCircle(5);
 
 
-// calculate the perimeter (circumference) of the circle
+// calculate the perimeter (circumference) of the circle               circumference = 2πr;      
+function circumferenceOfCircle(r) {
+    let circumference = 2 * Math.PI * r;
+    console.log(`Circumference of the circle is: ${circumference}`);
+};
+
+circumferenceOfCircle(5);
